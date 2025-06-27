@@ -1,0 +1,29 @@
+{
+  "name": "web-testing-with-playwright",
+  "version": "1.0.0",
+  "description": "Web testing automation using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "e2e"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^30.0.2",
+    "playwright": "^1.53.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
